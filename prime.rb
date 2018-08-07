@@ -11,10 +11,9 @@ def prime?(int)
     array.each do |i|
       if array.length % i == 0 
         return false 
-      else 
-        return true 
       end
     end
+    return true
   else 
     puts "Looks like we're dealing with a positive number here"
     array = (2...int).to_a
