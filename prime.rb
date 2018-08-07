@@ -23,8 +23,8 @@ def prime?(int)
       if array.length % i == 0 
         return false 
       end
-      return true
     end
+    return true
   end
 end 
 
