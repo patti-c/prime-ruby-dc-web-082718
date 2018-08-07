@@ -7,7 +7,7 @@ def prime?(int)
     return true 
   elsif int < 0
     puts "Looks like we're dealing with a negative number here."
-    array = (-2...int).to_a
+    array = (-2...Math.sqrt(int)).to_a
     array.each do |i|
       if int % i == 0 
         return false 
@@ -16,7 +16,7 @@ def prime?(int)
     return true
   else 
     puts "Looks like we're dealing with a positive number here"
-    array = (2...int).to_a
+    array = (2...Math.sqrt(int)).to_a
     array.each do |i|
       if int % i == 0 
         return false 
