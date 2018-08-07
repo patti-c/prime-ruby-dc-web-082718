@@ -27,3 +27,5 @@ def prime?(int)
     end
   end
 end 
+
+prime?(1763)
