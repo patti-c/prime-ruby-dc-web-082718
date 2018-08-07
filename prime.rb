@@ -27,4 +27,4 @@ def prime?(int)
   end
 end 
 
-prime?(1763)
+prime?(11)
