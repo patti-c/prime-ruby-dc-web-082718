@@ -19,6 +19,7 @@ def prime?(int)
     puts "Looks like we're dealing with a positive number here"
     array = (2...int).to_a
     array.each do |i|
+      puts "We're inside 'each'"
       if array.length % i == 0 
         puts "Not divisible by this one!"
         return false 
