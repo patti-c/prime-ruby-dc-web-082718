@@ -9,7 +9,7 @@ def prime?(int)
     puts "Looks like we're dealing with a negative number here."
     array = (-2...int).to_a
     array.each do |i|
-      if math.sqrt(int) % i == 0 
+      if Math.sqrt(int) % i == 0 
         return false 
       end
     end
@@ -18,7 +18,7 @@ def prime?(int)
     puts "Looks like we're dealing with a positive number here"
     array = (2...int).to_a
     array.each do |i|
-      if math.sqrt(int) % i == 0 
+      if Math.sqrt(int) % i == 0 
         return false 
       end
     end
