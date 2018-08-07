@@ -21,10 +21,9 @@ def prime?(int)
     array.each do |i|
       puts "We're inside 'each'"
       if array.length % i == 0 
-        puts "Not divisible by this one!"
-        return true 
-      else 
         return false 
+      else 
+        return true 
       end
     end
   end
