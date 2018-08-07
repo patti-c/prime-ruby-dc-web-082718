@@ -22,9 +22,9 @@ def prime?(int)
       puts "We're inside 'each'"
       if array.length % i == 0 
         puts "Not divisible by this one!"
-        return false 
-      else 
         return true 
+      else 
+        return false 
       end
     end
   end
