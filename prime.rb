@@ -18,6 +18,7 @@ def prime?(int)
   else 
     puts "Looks like we're dealing with a positive number here"
     array = (2...int).to_a
+    puts array
     array.each do |i|
       if array.length % i == 0 
         return false 
