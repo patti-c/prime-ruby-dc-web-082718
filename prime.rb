@@ -6,7 +6,7 @@ def prime?(int)
         return false 
       else 
         return true 
-  elsif int == 2 || int == -2
+  elsif int == 2 || int = -2
     return true 
   else 
     array = (2...int).to_a
