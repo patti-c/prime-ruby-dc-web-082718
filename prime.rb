@@ -1,5 +1,6 @@
 def prime?(int)
   if int > -2 && int < 2 
+    puts "No numbers between 2 and -2 are prime."
     return false
   elsif int == 2 || int == -2
     puts "The numbers 2 and -2 are prime."
