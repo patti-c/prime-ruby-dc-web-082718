@@ -11,6 +11,7 @@ def prime?(int)
       else 
         return true 
       end
+    end
   else 
     array = (2...int).to_a
     array.each do |i|
