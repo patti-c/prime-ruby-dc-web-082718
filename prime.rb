@@ -22,9 +22,8 @@ def prime?(int)
       puts "We're inside 'each'"
       if array.length % i == 0 
         return false 
-      else 
-        return true 
       end
+      return true
     end
   end
 end 
