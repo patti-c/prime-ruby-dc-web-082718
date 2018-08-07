@@ -6,6 +6,7 @@ def prime?(int)
     puts "The numbers 2 and -2 are prime."
     return true 
   elsif int < 0
+    puts "Looks like we're dealing with a negative number here."
     array = (-2...int).to_a
     array.each do |i|
       if array.length % i == 0 
